@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 /**
  * 取得高雄天氣預報
  * CWA 氣象資料開放平臺 API
- * 使用「一般天氣預報-今明 36 小時天氣預報」資料集
+ * 使用「一般天氣預報-今明 36 小時天氣預報」資 料集
  */
 const getKaohsiungWeather = async (req, res) => {
   try {
